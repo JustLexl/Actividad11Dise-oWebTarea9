@@ -1,8 +1,14 @@
-/node_modules
-/public/hot
-/public/storage
-/storage/*.key
-/vendor
+# Root and nested project dependencies
+Act11Tarea9/vendor/
+Act11Tarea9/node_modules/
+Act11Tarea9/.env
+Tarea9/vendor/
+Tarea9/node_modules/
+Tarea9/.env
+
+# Ignore vendor unless in resources/views
+/vendor/
+/node_modules/
 .env
 .env.backup
 .phpunit.result.cache
@@ -10,3 +16,7 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+.DS_Store
+Thumbs.db
+
+!**/resources/views/vendor/**
